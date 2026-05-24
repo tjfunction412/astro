@@ -1,0 +1,32 @@
+# Environment files — never commit secrets
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Build / runtime
+dist/
+build/
+*.log
+
+# Swiss Ephemeris data files (binary, redownloadable from astro.com / github mirror)
+ephemeris/*.se1
+
+# Real handoff data — contains personal birth info. Regenerate locally with
+# `npm run handoff:export`. The committed example (sample-data.example.json)
+# is fictional and safe to share.
+docs/handoff/sample-data.json

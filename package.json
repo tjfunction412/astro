@@ -1,0 +1,29 @@
+{
+  "name": "astro",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "description": "Personal astrology tool — spiritual successor to The Clockwork Mirror",
+  "scripts": {
+    "transits": "node lib/transits.js",
+    "migrate": "node lib/migrate.js",
+    "people:list": "node lib/list-people.js",
+    "people:add": "node lib/add-person.js",
+    "chart": "node lib/print-chart.js",
+    "events:add": "node lib/events-add.js",
+    "events:list": "node lib/events-list.js",
+    "pings:add": "node lib/pings-add.js",
+    "pings:list": "node lib/pings-list.js",
+    "predictions:add": "node lib/predictions-add.js",
+    "predictions:list": "node lib/predictions-list.js",
+    "predictions:verdict": "node lib/predictions-verdict.js",
+    "handoff:export": "node lib/export-handoff.js",
+    "mcp:start": "node mcp/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "luxon": "^3.7.2",
+    "pg": "^8.21.0",
+    "sweph": "^2.10.3-5"
+  }
+}

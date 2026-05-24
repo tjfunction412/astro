@@ -1,0 +1,3718 @@
+{
+  "generated_at": "2026-05-24T05:28:15.422Z",
+  "note": "Example handoff packet for Claude Design. All people, events, pings, and predictions are fictional. Chart compute is real (Swiss Ephemeris against fictional birth data) so the data shape matches production exactly.",
+  "themes": [
+    {
+      "slug": "work",
+      "label": "Work",
+      "description": "Job, career, professional craft"
+    },
+    {
+      "slug": "body",
+      "label": "Body",
+      "description": "Health, sleep, exercise, vitality"
+    },
+    {
+      "slug": "love",
+      "label": "Love",
+      "description": "Romantic partnership, intimacy"
+    },
+    {
+      "slug": "family",
+      "label": "Family",
+      "description": "Family of origin, blood relations"
+    },
+    {
+      "slug": "creative",
+      "label": "Creative",
+      "description": "Art, expression, making"
+    },
+    {
+      "slug": "money",
+      "label": "Money",
+      "description": "Finances, income, exchange"
+    },
+    {
+      "slug": "social",
+      "label": "Social",
+      "description": "Friends, community, broader relations"
+    },
+    {
+      "slug": "inner",
+      "label": "Inner",
+      "description": "Solo, contemplative, dreams, shadow work"
+    },
+    {
+      "slug": "synchronicity",
+      "label": "Synchronicity",
+      "description": "Patterns, glitches, meaningful coincidences"
+    }
+  ],
+  "people": [
+    {
+      "id": "aaaaaaaa-0000-4000-8000-000000000001",
+      "name": "Avery",
+      "relation": "self",
+      "birth_date": "1990-04-18T00:00:00.000Z",
+      "birth_time": "06:42:00",
+      "birth_tz": "America/Los_Angeles",
+      "birth_place": "Portland, OR",
+      "birth_lat": "45.51520",
+      "birth_lon": "-122.67840",
+      "notes": "Sample primary user for the design handoff. Fictional.",
+      "mbti": "INFJ",
+      "created_at": "2026-04-01T10:00:00.000Z",
+      "updated_at": "2026-04-01T10:00:00.000Z"
+    },
+    {
+      "id": "aaaaaaaa-0000-4000-8000-000000000002",
+      "name": "Sam",
+      "relation": "partner",
+      "birth_date": "1988-11-03T00:00:00.000Z",
+      "birth_time": "21:15:00",
+      "birth_tz": "America/Chicago",
+      "birth_place": "Austin, TX",
+      "birth_lat": "30.26720",
+      "birth_lon": "-97.74310",
+      "notes": null,
+      "mbti": "ENTP",
+      "created_at": "2026-04-05T14:30:00.000Z",
+      "updated_at": "2026-04-05T14:30:00.000Z"
+    },
+    {
+      "id": "aaaaaaaa-0000-4000-8000-000000000003",
+      "name": "Mom",
+      "relation": "mother",
+      "birth_date": "1958-07-25T00:00:00.000Z",
+      "birth_time": null,
+      "birth_tz": "America/Los_Angeles",
+      "birth_place": "Eugene, OR",
+      "birth_lat": "44.05210",
+      "birth_lon": "-123.08680",
+      "notes": null,
+      "mbti": null,
+      "created_at": "2026-04-10T09:15:00.000Z",
+      "updated_at": "2026-04-10T09:15:00.000Z"
+    }
+  ],
+  "events": [
+    {
+      "id": "bbbbbbbb-0000-4000-8000-000000000001",
+      "occurred_at": "2026-05-10T14:30:00.000Z",
+      "description": "Started a new project at work — managing the migration to a new vendor.",
+      "themes": [
+        "work"
+      ],
+      "person_id": null,
+      "created_at": "2026-05-10T15:00:00.000Z"
+    },
+    {
+      "id": "bbbbbbbb-0000-4000-8000-000000000002",
+      "occurred_at": "2026-05-15T19:00:00.000Z",
+      "description": "Long phone call with Mom — she shared a story from her childhood I had never heard.",
+      "themes": [
+        "family",
+        "synchronicity"
+      ],
+      "person_id": "aaaaaaaa-0000-4000-8000-000000000003",
+      "created_at": "2026-05-15T20:30:00.000Z"
+    },
+    {
+      "id": "bbbbbbbb-0000-4000-8000-000000000003",
+      "occurred_at": "2026-05-21T08:00:00.000Z",
+      "description": "Sam and I made breakfast together for the first time in weeks. Felt grounded.",
+      "themes": [
+        "love",
+        "family"
+      ],
+      "person_id": "aaaaaaaa-0000-4000-8000-000000000002",
+      "created_at": "2026-05-21T08:15:00.000Z"
+    }
+  ],
+  "pings": [
+    {
+      "id": "cccccccc-0000-4000-8000-000000000001",
+      "pinged_at": "2026-05-22T08:30:00.000Z",
+      "mood": "charged",
+      "energy": 4,
+      "note": "Productive morning, ideas flowing.",
+      "tags": [
+        "work",
+        "creative"
+      ],
+      "created_at": "2026-05-22T08:30:00.000Z"
+    },
+    {
+      "id": "cccccccc-0000-4000-8000-000000000002",
+      "pinged_at": "2026-05-22T21:45:00.000Z",
+      "mood": "heavy",
+      "energy": 2,
+      "note": "Tired. The work intensity is starting to weigh.",
+      "tags": [
+        "work",
+        "body"
+      ],
+      "created_at": "2026-05-22T21:45:00.000Z"
+    },
+    {
+      "id": "cccccccc-0000-4000-8000-000000000003",
+      "pinged_at": "2026-05-23T11:00:00.000Z",
+      "mood": "curious",
+      "energy": 3,
+      "note": "1966 keeps surfacing — Baumol, Dusty Springfield, Jeff Beck retrospective.",
+      "tags": [
+        "synchronicity",
+        "inner"
+      ],
+      "created_at": "2026-05-23T11:00:00.000Z"
+    },
+    {
+      "id": "cccccccc-0000-4000-8000-000000000004",
+      "pinged_at": "2026-05-24T07:15:00.000Z",
+      "mood": "calm",
+      "energy": 4,
+      "note": "Slept well. Quiet morning. Feels like something is shifting.",
+      "tags": [
+        "body",
+        "inner"
+      ],
+      "created_at": "2026-05-24T07:15:00.000Z"
+    }
+  ],
+  "predictions": [
+    {
+      "id": "dddddddd-0000-4000-8000-000000000001",
+      "predicted_at": "2026-05-18T10:00:00.000Z",
+      "transit_summary": "Saturn square natal Sun, exact ~2026-05-22",
+      "prediction_text": "Expect work pressure to peak; possible self-doubt about identity in role.",
+      "probability": "0.65",
+      "predicted_themes": [
+        "work",
+        "inner"
+      ],
+      "person_id": "aaaaaaaa-0000-4000-8000-000000000001",
+      "window_start": "2026-05-20",
+      "window_end": "2026-05-26",
+      "verdict": "hit",
+      "verdict_text": "Work pressure peaked Wednesday; had a hard conversation with my manager about role direction.",
+      "verdict_at": "2026-05-26T22:00:00.000Z",
+      "brier_score": "0.123",
+      "created_at": "2026-05-18T10:00:00.000Z"
+    },
+    {
+      "id": "dddddddd-0000-4000-8000-000000000002",
+      "predicted_at": "2026-05-23T15:00:00.000Z",
+      "transit_summary": "Venus conjunct natal Moon, exact ~2026-05-28",
+      "prediction_text": "Possible warmth in close relationships; nostalgic family feelings.",
+      "probability": "0.55",
+      "predicted_themes": [
+        "love",
+        "family"
+      ],
+      "person_id": "aaaaaaaa-0000-4000-8000-000000000001",
+      "window_start": "2026-05-27",
+      "window_end": "2026-05-30",
+      "verdict": "pending",
+      "verdict_text": null,
+      "verdict_at": null,
+      "brier_score": null,
+      "created_at": "2026-05-23T15:00:00.000Z"
+    }
+  ],
+  "charts": {
+    "Avery": {
+      "person": {
+        "name": "Avery",
+        "relation": "self"
+      },
+      "julianDay": 2448000.0708333333,
+      "timeKnown": true,
+      "houseSystem": "P",
+      "planets": [
+        {
+          "name": "Sun",
+          "sign": "Aries",
+          "deg": 28,
+          "min": 15,
+          "longitude": 28.260133432221696,
+          "display": "28°15′ Aries",
+          "house": 12,
+          "retrograde": false,
+          "speed": 0.977359850776278,
+          "warning": null
+        },
+        {
+          "name": "Moon",
+          "sign": "Aquarius",
+          "deg": 1,
+          "min": 29,
+          "longitude": 301.4870840852611,
+          "display": " 1°29′ Aquarius",
+          "house": 10,
+          "retrograde": false,
+          "speed": 12.657394225655526,
+          "warning": null
+        },
+        {
+          "name": "Mercury",
+          "sign": "Taurus",
+          "deg": 16,
+          "min": 25,
+          "longitude": 46.42572755537795,
+          "display": "16°25′ Taurus",
+          "house": 1,
+          "retrograde": false,
+          "speed": 0.47211186406141525,
+          "warning": null
+        },
+        {
+          "name": "Venus",
+          "sign": "Pisces",
+          "deg": 12,
+          "min": 50,
+          "longitude": 342.8425517801007,
+          "display": "12°50′ Pisces",
+          "house": 11,
+          "retrograde": false,
+          "speed": 1.0780533930316472,
+          "warning": null
+        },
+        {
+          "name": "Mars",
+          "sign": "Aquarius",
+          "deg": 28,
+          "min": 14,
+          "longitude": 328.2406493564682,
+          "display": "28°14′ Aquarius",
+          "house": 11,
+          "retrograde": false,
+          "speed": 0.7480673618598404,
+          "warning": null
+        },
+        {
+          "name": "Jupiter",
+          "sign": "Cancer",
+          "deg": 4,
+          "min": 59,
+          "longitude": 94.98454319496547,
+          "display": " 4°59′ Cancer",
+          "house": 3,
+          "retrograde": false,
+          "speed": 0.14577965547106123,
+          "warning": null
+        },
+        {
+          "name": "Saturn",
+          "sign": "Capricorn",
+          "deg": 25,
+          "min": 7,
+          "longitude": 295.1190847869208,
+          "display": "25°07′ Capricorn",
+          "house": 10,
+          "retrograde": false,
+          "speed": 0.026780115827366592,
+          "warning": null
+        },
+        {
+          "name": "Uranus",
+          "sign": "Capricorn",
+          "deg": 9,
+          "min": 34,
+          "longitude": 279.58005263077894,
+          "display": " 9°34′ Capricorn",
+          "house": 9,
+          "retrograde": true,
+          "speed": -0.003942615866213799,
+          "warning": null
+        },
+        {
+          "name": "Neptune",
+          "sign": "Capricorn",
+          "deg": 14,
+          "min": 34,
+          "longitude": 284.5732650707259,
+          "display": "14°34′ Capricorn",
+          "house": 9,
+          "retrograde": true,
+          "speed": -0.001128803366072073,
+          "warning": null
+        },
+        {
+          "name": "Pluto",
+          "sign": "Scorpio",
+          "deg": 16,
+          "min": 54,
+          "longitude": 226.91105179711232,
+          "display": "16°54′ Scorpio",
+          "house": 7,
+          "retrograde": true,
+          "speed": -0.026137744337556047,
+          "warning": null
+        }
+      ],
+      "points": [
+        {
+          "name": "N. Node",
+          "sign": "Aquarius",
+          "deg": 12,
+          "min": 45,
+          "longitude": 312.765122524703,
+          "display": "12°45′ Aquarius",
+          "house": 11,
+          "retrograde": true,
+          "speed": -0.05294766461026599,
+          "warning": null
+        },
+        {
+          "name": "Lilith",
+          "sign": "Scorpio",
+          "deg": 18,
+          "min": 27,
+          "longitude": 228.4616683398512,
+          "display": "18°27′ Scorpio",
+          "house": 7,
+          "retrograde": false,
+          "speed": 0.11206122555585525,
+          "warning": null
+        },
+        {
+          "name": "Vertex",
+          "category": "Points",
+          "sign": "Libra",
+          "deg": 14,
+          "min": 41,
+          "longitude": 194.6864785038729,
+          "display": "14°41′ Libra",
+          "house": 6
+        },
+        {
+          "name": "Fortune",
+          "category": "Points",
+          "formula": "day",
+          "sign": "Aquarius",
+          "deg": 8,
+          "min": 45,
+          "longitude": 308.76614774738914,
+          "display": " 8°45′ Aquarius",
+          "house": 10
+        }
+      ],
+      "asteroids": [
+        {
+          "name": "Chiron",
+          "sign": "Cancer",
+          "deg": 11,
+          "min": 26,
+          "longitude": 101.44312169731725,
+          "display": "11°26′ Cancer",
+          "house": 3,
+          "retrograde": false,
+          "speed": 0.04972630958916756,
+          "warning": "SwissEph file 'semo_18.se1' not found in PATH 'D:\\CLAUDELAB\\clockwork-mirror\\astro\\ephemeris\\' \nusing Moshier eph. for moon; "
+        },
+        {
+          "name": "Ceres",
+          "sign": "Cancer",
+          "deg": 5,
+          "min": 22,
+          "longitude": 95.36729615412531,
+          "display": " 5°22′ Cancer",
+          "house": 3,
+          "retrograde": false,
+          "speed": 0.3358035019967362,
+          "warning": "SwissEph file 'semo_18.se1' not found in PATH 'D:\\CLAUDELAB\\clockwork-mirror\\astro\\ephemeris\\' \nusing Moshier eph. for moon; "
+        },
+        {
+          "name": "Pallas",
+          "sign": "Taurus",
+          "deg": 14,
+          "min": 7,
+          "longitude": 44.12918496779618,
+          "display": "14°07′ Taurus",
+          "house": 1,
+          "retrograde": false,
+          "speed": 0.5130232097626081,
+          "warning": "SwissEph file 'semo_18.se1' not found in PATH 'D:\\CLAUDELAB\\clockwork-mirror\\astro\\ephemeris\\' \nusing Moshier eph. for moon; "
+        },
+        {
+          "name": "Juno",
+          "sign": "Scorpio",
+          "deg": 21,
+          "min": 28,
+          "longitude": 231.46721749054726,
+          "display": "21°28′ Scorpio",
+          "house": 7,
+          "retrograde": true,
+          "speed": -0.18839205571964737,
+          "warning": "SwissEph file 'semo_18.se1' not found in PATH 'D:\\CLAUDELAB\\clockwork-mirror\\astro\\ephemeris\\' \nusing Moshier eph. for moon; "
+        },
+        {
+          "name": "Vesta",
+          "sign": "Aries",
+          "deg": 9,
+          "min": 22,
+          "longitude": 9.380074448635575,
+          "display": " 9°22′ Aries",
+          "house": 12,
+          "retrograde": false,
+          "speed": 0.46628677286160214,
+          "warning": "SwissEph file 'semo_18.se1' not found in PATH 'D:\\CLAUDELAB\\clockwork-mirror\\astro\\ephemeris\\' \nusing Moshier eph. for moon; "
+        }
+      ],
+      "tnos": [
+        {
+          "name": "Eris",
+          "sign": "Aries",
+          "deg": 17,
+          "min": 1,
+          "longitude": 17.03323724665583,
+          "display": "17°01′ Aries",
+          "house": 12,
+          "retrograde": false,
+          "speed": 0.010941927425362524,
+          "warning": "SwissEph file 'semo_18.se1' not found in PATH 'D:\\CLAUDELAB\\clockwork-mirror\\astro\\ephemeris\\' \nusing Moshier eph. for moon; "
+        },
+        {
+          "name": "Sedna",
+          "sign": "Taurus",
+          "deg": 10,
+          "min": 39,
+          "longitude": 40.665147583058435,
+          "display": "10°39′ Taurus",
+          "house": 1,
+          "retrograde": false,
+          "speed": 0.011576564834913443,
+          "warning": "SwissEph file 'semo_18.se1' not found in PATH 'D:\\CLAUDELAB\\clockwork-mirror\\astro\\ephemeris\\' \nusing Moshier eph. for moon; "
+        }
+      ],
+      "houses": [
+        {
+          "number": 1,
+          "sign": "Taurus",
+          "deg": 5,
+          "min": 32,
+          "longitude": 35.53919709434979,
+          "display": " 5°32′ Taurus"
+        },
+        {
+          "number": 2,
+          "sign": "Gemini",
+          "deg": 6,
+          "min": 47,
+          "longitude": 66.79301492983583,
+          "display": " 6°47′ Gemini"
+        },
+        {
+          "number": 3,
+          "sign": "Gemini",
+          "deg": 28,
+          "min": 7,
+          "longitude": 88.1301497208146,
+          "display": "28°07′ Gemini"
+        },
+        {
+          "number": 4,
+          "sign": "Cancer",
+          "deg": 17,
+          "min": 45,
+          "longitude": 107.75111616231322,
+          "display": "17°45′ Cancer"
+        },
+        {
+          "number": 5,
+          "sign": "Leo",
+          "deg": 10,
+          "min": 29,
+          "longitude": 130.49976352065903,
+          "display": "10°29′ Leo"
+        },
+        {
+          "number": 6,
+          "sign": "Virgo",
+          "deg": 13,
+          "min": 30,
+          "longitude": 163.5096653904402,
+          "display": "13°30′ Virgo"
+        },
+        {
+          "number": 7,
+          "sign": "Scorpio",
+          "deg": 5,
+          "min": 32,
+          "longitude": 215.5391970943498,
+          "display": " 5°32′ Scorpio"
+        },
+        {
+          "number": 8,
+          "sign": "Sagittarius",
+          "deg": 6,
+          "min": 47,
+          "longitude": 246.79301492983583,
+          "display": " 6°47′ Sagittarius"
+        },
+        {
+          "number": 9,
+          "sign": "Sagittarius",
+          "deg": 28,
+          "min": 7,
+          "longitude": 268.1301497208146,
+          "display": "28°07′ Sagittarius"
+        },
+        {
+          "number": 10,
+          "sign": "Capricorn",
+          "deg": 17,
+          "min": 45,
+          "longitude": 287.7511161623132,
+          "display": "17°45′ Capricorn"
+        },
+        {
+          "number": 11,
+          "sign": "Aquarius",
+          "deg": 10,
+          "min": 29,
+          "longitude": 310.49976352065903,
+          "display": "10°29′ Aquarius"
+        },
+        {
+          "number": 12,
+          "sign": "Pisces",
+          "deg": 13,
+          "min": 30,
+          "longitude": 343.50966539044015,
+          "display": "13°30′ Pisces"
+        }
+      ],
+      "ascendant": {
+        "sign": "Taurus",
+        "deg": 5,
+        "min": 32,
+        "longitude": 35.53919709434979,
+        "display": " 5°32′ Taurus"
+      },
+      "mc": {
+        "sign": "Capricorn",
+        "deg": 17,
+        "min": 45,
+        "longitude": 287.7511161623132,
+        "display": "17°45′ Capricorn"
+      },
+      "aspects": [
+        {
+          "body1": "Sun",
+          "body2": "Mars",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 60.019484075753496,
+          "orb": 0.0194840757534962
+        },
+        {
+          "body1": "Neptune",
+          "body2": "Vertex",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 89.88678656685298,
+          "orb": 0.11321343314702403
+        },
+        {
+          "body1": "Pluto",
+          "body2": "Eris",
+          "aspect": "Quincunx",
+          "symbol": "⚻",
+          "angle": 150,
+          "separation": 150.1221854495435,
+          "orb": 0.12218544954350818
+        },
+        {
+          "body1": "Ceres",
+          "body2": "Ascendant",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 59.828099059775525,
+          "orb": 0.1719009402244751
+        },
+        {
+          "body1": "Uranus",
+          "body2": "Vesta",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 89.80002181785665,
+          "orb": 0.1999781821433544
+        },
+        {
+          "body1": "Jupiter",
+          "body2": "Ceres",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 0.38275295915984486,
+          "orb": 0.38275295915984486
+        },
+        {
+          "body1": "Neptune",
+          "body2": "Pallas",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 119.55591989707028,
+          "orb": 0.44408010292971767
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Pluto",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 179.51467575826564,
+          "orb": 0.48532424173436084
+        },
+        {
+          "body1": "Jupiter",
+          "body2": "Ascendant",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 59.44534610061568,
+          "orb": 0.55465389938432
+        },
+        {
+          "body1": "Pallas",
+          "body2": "Vertex",
+          "aspect": "Quincunx",
+          "symbol": "⚻",
+          "angle": 150,
+          "separation": 150.5572935360767,
+          "orb": 0.5572935360767133
+        },
+        {
+          "body1": "Vesta",
+          "body2": "Fortune",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 60.61392670124644,
+          "orb": 0.6139267012464416
+        },
+        {
+          "body1": "Lilith",
+          "body2": "Midheaven",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 59.28944782246202,
+          "orb": 0.7105521775379771
+        },
+        {
+          "body1": "Eris",
+          "body2": "Midheaven",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 89.28212108434263,
+          "orb": 0.7178789156573657
+        },
+        {
+          "body1": "Chiron",
+          "body2": "Sedna",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 60.77797411425882,
+          "orb": 0.7779741142588179
+        },
+        {
+          "body1": "Pluto",
+          "body2": "Midheaven",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 60.8400643652009,
+          "orb": 0.8400643652009023
+        },
+        {
+          "body1": "Uranus",
+          "body2": "Sedna",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 121.08509495227949,
+          "orb": 1.0850949522794906
+        },
+        {
+          "body1": "Venus",
+          "body2": "Pallas",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 61.286633187695486,
+          "orb": 1.286633187695486
+        },
+        {
+          "body1": "Chiron",
+          "body2": "N. Node",
+          "aspect": "Quincunx",
+          "symbol": "⚻",
+          "angle": 150,
+          "separation": 148.67799917261428,
+          "orb": 1.3220008273857218
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Midheaven",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 118.67461139306471,
+          "orb": 1.3253886069352916
+        },
+        {
+          "body1": "Pallas",
+          "body2": "N. Node",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 91.36406244309319,
+          "orb": 1.3640624430931894
+        },
+        {
+          "body1": "Venus",
+          "body2": "Chiron",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 118.60056991721657,
+          "orb": 1.3994300827834252
+        },
+        {
+          "body1": "Eris",
+          "body2": "Lilith",
+          "aspect": "Quincunx",
+          "symbol": "⚻",
+          "angle": 150,
+          "separation": 148.57156890680463,
+          "orb": 1.4284310931953712
+        },
+        {
+          "body1": "Pluto",
+          "body2": "Lilith",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 1.5506165427388794,
+          "orb": 1.5506165427388794
+        },
+        {
+          "body1": "Venus",
+          "body2": "Neptune",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 58.269286709374796,
+          "orb": 1.7307132906252036
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Vertex",
+          "aspect": "Quincunx",
+          "symbol": "⚻",
+          "angle": 150,
+          "separation": 148.26075094849494,
+          "orb": 1.7392490515050554
+        },
+        {
+          "body1": "Venus",
+          "body2": "Vertex",
+          "aspect": "Quincunx",
+          "symbol": "⚻",
+          "angle": 150,
+          "separation": 148.15607327622777,
+          "orb": 1.8439267237722277
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Neptune",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 121.85246248465205,
+          "orb": 1.852462484652051
+        },
+        {
+          "body1": "Uranus",
+          "body2": "Chiron",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 178.13693093346168,
+          "orb": 1.8630690665383156
+        },
+        {
+          "body1": "Sedna",
+          "body2": "Fortune",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 91.89899983566931,
+          "orb": 1.898999835669315
+        },
+        {
+          "body1": "N. Node",
+          "body2": "Vertex",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 118.07864402083007,
+          "orb": 1.921355979169931
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Lilith",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 177.96405921552673,
+          "orb": 2.0359407844732686
+        },
+        {
+          "body1": "Chiron",
+          "body2": "Vesta",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 92.06304724868167,
+          "orb": 2.06304724868167
+        },
+        {
+          "body1": "Sedna",
+          "body2": "N. Node",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 87.90002505835548,
+          "orb": 2.0999749416445184
+        },
+        {
+          "body1": "Venus",
+          "body2": "Sedna",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 57.82259580295778,
+          "orb": 2.1774041970422218
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Pallas",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 2.2965425875817687,
+          "orb": 2.2965425875817687
+        },
+        {
+          "body1": "Neptune",
+          "body2": "Pluto",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 57.66221327361356,
+          "orb": 2.3377867263864403
+        },
+        {
+          "body1": "Eris",
+          "body2": "Vertex",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 177.65324125721708,
+          "orb": 2.3467587427829244
+        },
+        {
+          "body1": "Neptune",
+          "body2": "Eris",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 92.45997217592992,
+          "orb": 2.45997217592992
+        },
+        {
+          "body1": "Chiron",
+          "body2": "Fortune",
+          "aspect": "Quincunx",
+          "symbol": "⚻",
+          "angle": 150,
+          "separation": 152.6769739499281,
+          "orb": 2.6769739499281116
+        },
+        {
+          "body1": "Chiron",
+          "body2": "Pallas",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 57.313936729521075,
+          "orb": 2.6860632704789253
+        },
+        {
+          "body1": "Pluto",
+          "body2": "Pallas",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 177.21813317068387,
+          "orb": 2.7818668293161295
+        },
+        {
+          "body1": "Juno",
+          "body2": "Lilith",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 3.005549150696055,
+          "orb": 3.005549150696055
+        },
+        {
+          "body1": "Vertex",
+          "body2": "Midheaven",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 93.06463765844032,
+          "orb": 3.0646376584403185
+        },
+        {
+          "body1": "Neptune",
+          "body2": "Chiron",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 176.86985662659137,
+          "orb": 3.130143373408629
+        },
+        {
+          "body1": "Sun",
+          "body2": "Saturn",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 93.14104864530094,
+          "orb": 3.141048645300941
+        },
+        {
+          "body1": "Neptune",
+          "body2": "Midheaven",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 3.1778510915873426,
+          "orb": 3.1778510915873426
+        },
+        {
+          "body1": "Sun",
+          "body2": "Moon",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 86.77304934696065,
+          "orb": 3.226950653039353
+        },
+        {
+          "body1": "Fortune",
+          "body2": "Ascendant",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 86.77304934696065,
+          "orb": 3.226950653039353
+        },
+        {
+          "body1": "Chiron",
+          "body2": "Vertex",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 93.24335680655565,
+          "orb": 3.243356806555653
+        },
+        {
+          "body1": "Venus",
+          "body2": "Uranus",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 63.26249914932174,
+          "orb": 3.262499149321741
+        },
+        {
+          "body1": "Vesta",
+          "body2": "N. Node",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 56.61495192393261,
+          "orb": 3.3850480760673918
+        },
+        {
+          "body1": "Pallas",
+          "body2": "Sedna",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 3.4640373847377433,
+          "orb": 3.4640373847377433
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Venus",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 63.583175775277255,
+          "orb": 3.5831757752772546
+        },
+        {
+          "body1": "Pallas",
+          "body2": "Midheaven",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 116.37806880548294,
+          "orb": 3.6219311945170602
+        },
+        {
+          "body1": "Saturn",
+          "body2": "Juno",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 63.651867296373524,
+          "orb": 3.651867296373524
+        },
+        {
+          "body1": "Mercury",
+          "body2": "N. Node",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 93.66060503067496,
+          "orb": 3.660605030674958
+        },
+        {
+          "body1": "Juno",
+          "body2": "Midheaven",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 56.28389867176597,
+          "orb": 3.716101328234032
+        },
+        {
+          "body1": "Neptune",
+          "body2": "Lilith",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 56.11159673087468,
+          "orb": 3.8884032691253196
+        },
+        {
+          "body1": "Neptune",
+          "body2": "Sedna",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 116.09188251233255,
+          "orb": 3.908117487667454
+        },
+        {
+          "body1": "N. Node",
+          "body2": "Fortune",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 3.9989747773138333,
+          "orb": 3.9989747773138333
+        },
+        {
+          "body1": "Ceres",
+          "body2": "Vesta",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 85.98722170548973,
+          "orb": 4.0127782945102695
+        },
+        {
+          "body1": "Uranus",
+          "body2": "Ascendant",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 115.95914446357085,
+          "orb": 4.040855536429149
+        },
+        {
+          "body1": "Moon",
+          "body2": "Ascendant",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 94.05211300908871,
+          "orb": 4.052113009088714
+        },
+        {
+          "body1": "Venus",
+          "body2": "Pluto",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 115.93149998298836,
+          "orb": 4.068500017011644
+        },
+        {
+          "body1": "Pluto",
+          "body2": "N. Node",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 85.85407072759065,
+          "orb": 4.145929272409347
+        },
+        {
+          "body1": "Uranus",
+          "body2": "Ceres",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 175.78724352334638,
+          "orb": 4.212756476653624
+        },
+        {
+          "body1": "Eris",
+          "body2": "N. Node",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 64.26811472195288,
+          "orb": 4.268114721952884
+        },
+        {
+          "body1": "Pallas",
+          "body2": "Lilith",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 175.66751662794496,
+          "orb": 4.332483372055037
+        },
+        {
+          "body1": "Jupiter",
+          "body2": "Vesta",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 85.6044687463299,
+          "orb": 4.3955312536701
+        },
+        {
+          "body1": "Uranus",
+          "body2": "Pallas",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 124.54913233701723,
+          "orb": 4.549132337017227
+        },
+        {
+          "body1": "Pluto",
+          "body2": "Juno",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 4.556165693434934,
+          "orb": 4.556165693434934
+        },
+        {
+          "body1": "Jupiter",
+          "body2": "Uranus",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 175.40449056418652,
+          "orb": 4.595509435813483
+        },
+        {
+          "body1": "Venus",
+          "body2": "Midheaven",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 55.091435617787454,
+          "orb": 4.908564382212546
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Chiron",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 55.017394141939306,
+          "orb": 4.982605858060694
+        },
+        {
+          "body1": "Uranus",
+          "body2": "Neptune",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 4.993212439946944,
+          "orb": 4.993212439946944
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Juno",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 174.9585100648307,
+          "orb": 5.041489935169295
+        },
+        {
+          "body1": "Uranus",
+          "body2": "Vertex",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 84.89357412690603,
+          "orb": 5.1064258730939684
+        },
+        {
+          "body1": "Sedna",
+          "body2": "Ascendant",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 5.1259504887086464,
+          "orb": 5.1259504887086464
+        },
+        {
+          "body1": "Neptune",
+          "body2": "Vesta",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 84.8068093779097,
+          "orb": 5.193190622090299
+        },
+        {
+          "body1": "Ceres",
+          "body2": "Sedna",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 54.70214857106688,
+          "orb": 5.2978514289331216
+        },
+        {
+          "body1": "Vesta",
+          "body2": "Vertex",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 174.69359594476268,
+          "orb": 5.306404055237323
+        },
+        {
+          "body1": "Pallas",
+          "body2": "Fortune",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 95.36303722040702,
+          "orb": 5.363037220407023
+        },
+        {
+          "body1": "Pluto",
+          "body2": "Chiron",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 125.46793009979507,
+          "orb": 5.467930099795069
+        },
+        {
+          "body1": "Chiron",
+          "body2": "Eris",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 84.40988445066142,
+          "orb": 5.590115549338577
+        },
+        {
+          "body1": "Venus",
+          "body2": "Lilith",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 114.38088344024948,
+          "orb": 5.619116559750523
+        },
+        {
+          "body1": "Jupiter",
+          "body2": "Sedna",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 54.319395611907034,
+          "orb": 5.680604388092966
+        },
+        {
+          "body1": "N. Node",
+          "body2": "Lilith",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 84.30345418485177,
+          "orb": 5.696545815148227
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Sedna",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 5.760579972319512,
+          "orb": 5.760579972319512
+        },
+        {
+          "body1": "Chiron",
+          "body2": "Ascendant",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 65.90392460296746,
+          "orb": 5.903924602967464
+        },
+        {
+          "body1": "Vertex",
+          "body2": "Fortune",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 114.07966924351624,
+          "orb": 5.920330756483764
+        },
+        {
+          "body1": "Chiron",
+          "body2": "Ceres",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 6.0758255431919395,
+          "orb": 6.0758255431919395
+        },
+        {
+          "body1": "Pluto",
+          "body2": "Sedna",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 173.7540957859461,
+          "orb": 6.245904214053894
+        },
+        {
+          "body1": "Chiron",
+          "body2": "Midheaven",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 173.69200553500403,
+          "orb": 6.307994464995971
+        },
+        {
+          "body1": "Moon",
+          "body2": "Saturn",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 6.367999298340294,
+          "orb": 6.367999298340294
+        },
+        {
+          "body1": "Jupiter",
+          "body2": "Chiron",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 6.458578502351784,
+          "orb": 6.458578502351784
+        },
+        {
+          "body1": "Mars",
+          "body2": "Jupiter",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 126.74389383849723,
+          "orb": 6.743893838497229
+        },
+        {
+          "body1": "Mars",
+          "body2": "Juno",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 96.77343186592097,
+          "orb": 6.773431865920969
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Uranus",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 126.845674924599,
+          "orb": 6.845674924598995
+        },
+        {
+          "body1": "Chiron",
+          "body2": "Lilith",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 127.01854664253395,
+          "orb": 7.018546642533948
+        },
+        {
+          "body1": "Sedna",
+          "body2": "Midheaven",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 112.9140314207452,
+          "orb": 7.085968579254796
+        },
+        {
+          "body1": "Mars",
+          "body2": "Ceres",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 127.12664679765709,
+          "orb": 7.126646797657088
+        },
+        {
+          "body1": "N. Node",
+          "body2": "Ascendant",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 82.77407456964681,
+          "orb": 7.225925430353186
+        },
+        {
+          "body1": "Moon",
+          "body2": "Fortune",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 7.279063662128067,
+          "orb": 7.279063662128067
+        },
+        {
+          "body1": "Sun",
+          "body2": "Ascendant",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 7.279063662128092,
+          "orb": 7.279063662128092
+        },
+        {
+          "body1": "Pallas",
+          "body2": "Juno",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 172.66196747724894,
+          "orb": 7.338032522751064
+        },
+        {
+          "body1": "Saturn",
+          "body2": "Midheaven",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 7.367968624607556,
+          "orb": 7.367968624607556
+        },
+        {
+          "body1": "Uranus",
+          "body2": "Eris",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 97.45318461587692,
+          "orb": 7.453184615876921
+        },
+        {
+          "body1": "Venus",
+          "body2": "Ceres",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 112.52474437402464,
+          "orb": 7.475255625975365
+        },
+        {
+          "body1": "Vesta",
+          "body2": "Eris",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 7.653162798020254,
+          "orb": 7.653162798020254
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Fortune",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 97.65957980798879,
+          "orb": 7.659579807988791
+        },
+        {
+          "body1": "Sedna",
+          "body2": "Lilith",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 172.20347924320723,
+          "orb": 7.7965207567927735
+        },
+        {
+          "body1": "Venus",
+          "body2": "Jupiter",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 112.14199141486478,
+          "orb": 7.858008585135224
+        }
+      ]
+    },
+    "Sam": {
+      "person": {
+        "name": "Sam",
+        "relation": "partner"
+      },
+      "julianDay": 2447469.6354166665,
+      "timeKnown": true,
+      "houseSystem": "P",
+      "planets": [
+        {
+          "name": "Sun",
+          "sign": "Scorpio",
+          "deg": 11,
+          "min": 55,
+          "longitude": 221.92490326457238,
+          "display": "11°55′ Scorpio",
+          "house": 5,
+          "retrograde": false,
+          "speed": 1.0023675876075526,
+          "warning": null
+        },
+        {
+          "name": "Moon",
+          "sign": "Virgo",
+          "deg": 11,
+          "min": 24,
+          "longitude": 161.40236088191432,
+          "display": "11°24′ Virgo",
+          "house": 3,
+          "retrograde": false,
+          "speed": 11.771471797158963,
+          "warning": null
+        },
+        {
+          "name": "Mercury",
+          "sign": "Libra",
+          "deg": 26,
+          "min": 10,
+          "longitude": 206.16713644309954,
+          "display": "26°10′ Libra",
+          "house": 4,
+          "retrograde": false,
+          "speed": 1.5128336081521703,
+          "warning": null
+        },
+        {
+          "name": "Venus",
+          "sign": "Libra",
+          "deg": 6,
+          "min": 14,
+          "longitude": 186.23756023488056,
+          "display": " 6°14′ Libra",
+          "house": 4,
+          "retrograde": false,
+          "speed": 1.2117715787261036,
+          "warning": null
+        },
+        {
+          "name": "Mars",
+          "sign": "Aries",
+          "deg": 0,
+          "min": 11,
+          "longitude": 0.18866250255483183,
+          "display": " 0°11′ Aries",
+          "house": 10,
+          "retrograde": false,
+          "speed": 0.08891050201556365,
+          "warning": null
+        },
+        {
+          "name": "Jupiter",
+          "sign": "Gemini",
+          "deg": 3,
+          "min": 31,
+          "longitude": 63.52575945778138,
+          "display": " 3°31′ Gemini",
+          "house": 11,
+          "retrograde": true,
+          "speed": -0.11852304749198779,
+          "warning": null
+        },
+        {
+          "name": "Saturn",
+          "sign": "Sagittarius",
+          "deg": 29,
+          "min": 12,
+          "longitude": 269.2067791502431,
+          "display": "29°12′ Sagittarius",
+          "house": 6,
+          "retrograde": false,
+          "speed": 0.09218539832780268,
+          "warning": null
+        },
+        {
+          "name": "Uranus",
+          "sign": "Sagittarius",
+          "deg": 28,
+          "min": 29,
+          "longitude": 268.4998992689317,
+          "display": "28°29′ Sagittarius",
+          "house": 6,
+          "retrograde": false,
+          "speed": 0.04585631879619901,
+          "warning": null
+        },
+        {
+          "name": "Neptune",
+          "sign": "Capricorn",
+          "deg": 7,
+          "min": 59,
+          "longitude": 277.99844980241164,
+          "display": " 7°59′ Capricorn",
+          "house": 6,
+          "retrograde": false,
+          "speed": 0.02415379907439572,
+          "warning": null
+        },
+        {
+          "name": "Pluto",
+          "sign": "Scorpio",
+          "deg": 12,
+          "min": 29,
+          "longitude": 222.48652692024655,
+          "display": "12°29′ Scorpio",
+          "house": 5,
+          "retrograde": false,
+          "speed": 0.040494854509121374,
+          "warning": null
+        }
+      ],
+      "points": [
+        {
+          "name": "N. Node",
+          "sign": "Pisces",
+          "deg": 10,
+          "min": 51,
+          "longitude": 340.85162926258,
+          "display": "10°51′ Pisces",
+          "house": 9,
+          "retrograde": true,
+          "speed": -0.05297887541887527,
+          "warning": null
+        },
+        {
+          "name": "Lilith",
+          "sign": "Virgo",
+          "deg": 19,
+          "min": 18,
+          "longitude": 169.31067792894532,
+          "display": "19°18′ Virgo",
+          "house": 3,
+          "retrograde": false,
+          "speed": 0.11074489858695166,
+          "warning": null
+        },
+        {
+          "name": "Vertex",
+          "category": "Points",
+          "sign": "Scorpio",
+          "deg": 22,
+          "min": 20,
+          "longitude": 232.34820713760627,
+          "display": "22°20′ Scorpio",
+          "house": 5
+        },
+        {
+          "name": "Fortune",
+          "category": "Points",
+          "formula": "night",
+          "sign": "Virgo",
+          "deg": 8,
+          "min": 51,
+          "longitude": 158.85281424136292,
+          "display": " 8°51′ Virgo",
+          "house": 3
+        }
+      ],
+      "asteroids": [
+        {
+          "name": "Chiron",
+          "sign": "Cancer",
+          "deg": 6,
+          "min": 55,
+          "longitude": 96.92353811392758,
+          "display": " 6°55′ Cancer",
+          "house": 12,
+          "retrograde": true,
+          "speed": -0.025839308534182877,
+          "warning": "SwissEph file 'semo_18.se1' not found in PATH 'D:\\CLAUDELAB\\clockwork-mirror\\astro\\ephemeris\\' \nusing Moshier eph. for moon; "
+        },
+        {
+          "name": "Ceres",
+          "sign": "Pisces",
+          "deg": 17,
+          "min": 26,
+          "longitude": 347.44468817597647,
+          "display": "17°26′ Pisces",
+          "house": 9,
+          "retrograde": true,
+          "speed": -0.017842865128365783,
+          "warning": "SwissEph file 'semo_18.se1' not found in PATH 'D:\\CLAUDELAB\\clockwork-mirror\\astro\\ephemeris\\' \nusing Moshier eph. for moon; "
+        },
+        {
+          "name": "Pallas",
+          "sign": "Aquarius",
+          "deg": 4,
+          "min": 57,
+          "longitude": 304.9522422966365,
+          "display": " 4°57′ Aquarius",
+          "house": 8,
+          "retrograde": false,
+          "speed": 0.1700378250151181,
+          "warning": "SwissEph file 'semo_18.se1' not found in PATH 'D:\\CLAUDELAB\\clockwork-mirror\\astro\\ephemeris\\' \nusing Moshier eph. for moon; "
+        },
+        {
+          "name": "Juno",
+          "sign": "Leo",
+          "deg": 28,
+          "min": 27,
+          "longitude": 148.45157946563322,
+          "display": "28°27′ Leo",
+          "house": 3,
+          "retrograde": false,
+          "speed": 0.35828308356458477,
+          "warning": "SwissEph file 'semo_18.se1' not found in PATH 'D:\\CLAUDELAB\\clockwork-mirror\\astro\\ephemeris\\' \nusing Moshier eph. for moon; "
+        },
+        {
+          "name": "Vesta",
+          "sign": "Libra",
+          "deg": 26,
+          "min": 18,
+          "longitude": 206.3104585732751,
+          "display": "26°18′ Libra",
+          "house": 4,
+          "retrograde": false,
+          "speed": 0.5184755985331404,
+          "warning": "SwissEph file 'semo_18.se1' not found in PATH 'D:\\CLAUDELAB\\clockwork-mirror\\astro\\ephemeris\\' \nusing Moshier eph. for moon; "
+        }
+      ],
+      "tnos": [
+        {
+          "name": "Eris",
+          "sign": "Aries",
+          "deg": 16,
+          "min": 18,
+          "longitude": 16.313636562848643,
+          "display": "16°18′ Aries",
+          "house": 10,
+          "retrograde": true,
+          "speed": -0.00908873897720359,
+          "warning": "SwissEph file 'semo_18.se1' not found in PATH 'D:\\CLAUDELAB\\clockwork-mirror\\astro\\ephemeris\\' \nusing Moshier eph. for moon; "
+        },
+        {
+          "name": "Sedna",
+          "sign": "Taurus",
+          "deg": 10,
+          "min": 3,
+          "longitude": 40.05907369042221,
+          "display": "10°03′ Taurus",
+          "house": 11,
+          "retrograde": true,
+          "speed": -0.009443610271161888,
+          "warning": "SwissEph file 'semo_18.se1' not found in PATH 'D:\\CLAUDELAB\\clockwork-mirror\\astro\\ephemeris\\' \nusing Moshier eph. for moon; "
+        }
+      ],
+      "houses": [
+        {
+          "number": 1,
+          "sign": "Cancer",
+          "deg": 8,
+          "min": 19,
+          "longitude": 98.3302718587048,
+          "display": " 8°19′ Cancer"
+        },
+        {
+          "number": 2,
+          "sign": "Leo",
+          "deg": 0,
+          "min": 34,
+          "longitude": 120.5799738795107,
+          "display": " 0°34′ Leo"
+        },
+        {
+          "number": 3,
+          "sign": "Leo",
+          "deg": 24,
+          "min": 56,
+          "longitude": 144.93615822749572,
+          "display": "24°56′ Leo"
+        },
+        {
+          "number": 4,
+          "sign": "Virgo",
+          "deg": 24,
+          "min": 6,
+          "longitude": 174.11333978704351,
+          "display": "24°06′ Virgo"
+        },
+        {
+          "number": 5,
+          "sign": "Libra",
+          "deg": 28,
+          "min": 48,
+          "longitude": 208.81394404134545,
+          "display": "28°48′ Libra"
+        },
+        {
+          "number": 6,
+          "sign": "Sagittarius",
+          "deg": 5,
+          "min": 14,
+          "longitude": 245.23720685557998,
+          "display": " 5°14′ Sagittarius"
+        },
+        {
+          "number": 7,
+          "sign": "Capricorn",
+          "deg": 8,
+          "min": 19,
+          "longitude": 278.3302718587048,
+          "display": " 8°19′ Capricorn"
+        },
+        {
+          "number": 8,
+          "sign": "Aquarius",
+          "deg": 0,
+          "min": 34,
+          "longitude": 300.5799738795107,
+          "display": " 0°34′ Aquarius"
+        },
+        {
+          "number": 9,
+          "sign": "Aquarius",
+          "deg": 24,
+          "min": 56,
+          "longitude": 324.93615822749575,
+          "display": "24°56′ Aquarius"
+        },
+        {
+          "number": 10,
+          "sign": "Pisces",
+          "deg": 24,
+          "min": 6,
+          "longitude": 354.11333978704357,
+          "display": "24°06′ Pisces"
+        },
+        {
+          "number": 11,
+          "sign": "Aries",
+          "deg": 28,
+          "min": 48,
+          "longitude": 28.813944041345454,
+          "display": "28°48′ Aries"
+        },
+        {
+          "number": 12,
+          "sign": "Gemini",
+          "deg": 5,
+          "min": 14,
+          "longitude": 65.23720685557997,
+          "display": " 5°14′ Gemini"
+        }
+      ],
+      "ascendant": {
+        "sign": "Cancer",
+        "deg": 8,
+        "min": 19,
+        "longitude": 98.3302718587048,
+        "display": " 8°19′ Cancer"
+      },
+      "mc": {
+        "sign": "Pisces",
+        "deg": 24,
+        "min": 6,
+        "longitude": 354.11333978704357,
+        "display": "24°06′ Pisces"
+      },
+      "aspects": [
+        {
+          "body1": "Uranus",
+          "body2": "Juno",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 120.04831980329848,
+          "orb": 0.048319803298483066
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Vesta",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 0.14332213017556228,
+          "orb": 0.14332213017556228
+        },
+        {
+          "body1": "Neptune",
+          "body2": "Ascendant",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 179.66817794370684,
+          "orb": 0.33182205629316286
+        },
+        {
+          "body1": "Sun",
+          "body2": "Moon",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 60.52254238265806,
+          "orb": 0.5225423826580595
+        },
+        {
+          "body1": "Fortune",
+          "body2": "Ascendant",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 60.522542382658116,
+          "orb": 0.5225423826581164
+        },
+        {
+          "body1": "Moon",
+          "body2": "N. Node",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 179.44926838066567,
+          "orb": 0.5507316193343286
+        },
+        {
+          "body1": "Sun",
+          "body2": "Pluto",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 0.5616236556741683,
+          "orb": 0.5616236556741683
+        },
+        {
+          "body1": "Venus",
+          "body2": "Chiron",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 89.31402212095298,
+          "orb": 0.6859778790470159
+        },
+        {
+          "body1": "Saturn",
+          "body2": "Uranus",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 0.7068798813114086,
+          "orb": 0.7068798813114086
+        },
+        {
+          "body1": "Saturn",
+          "body2": "Juno",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 120.75519968460989,
+          "orb": 0.7551996846098916
+        },
+        {
+          "body1": "Sedna",
+          "body2": "N. Node",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 59.20744442784223,
+          "orb": 0.7925555721577666
+        },
+        {
+          "body1": "Neptune",
+          "body2": "Fortune",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 119.14563556104872,
+          "orb": 0.8543644389512792
+        },
+        {
+          "body1": "Mars",
+          "body2": "Saturn",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 90.98188335231174,
+          "orb": 0.9818833523117405
+        },
+        {
+          "body1": "Sun",
+          "body2": "N. Node",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 118.92672599800761,
+          "orb": 1.073274001992388
+        },
+        {
+          "body1": "Neptune",
+          "body2": "Chiron",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 178.92508831151594,
+          "orb": 1.0749116884840646
+        },
+        {
+          "body1": "Moon",
+          "body2": "Pluto",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 61.08416603833223,
+          "orb": 1.0841660383322278
+        },
+        {
+          "body1": "Sedna",
+          "body2": "Fortune",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 118.79374055094071,
+          "orb": 1.2062594490592886
+        },
+        {
+          "body1": "Venus",
+          "body2": "Pallas",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 118.71468206175592,
+          "orb": 1.2853179382440771
+        },
+        {
+          "body1": "Moon",
+          "body2": "Sedna",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 121.34328719149211,
+          "orb": 1.3432871914921094
+        },
+        {
+          "body1": "Chiron",
+          "body2": "Ascendant",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 1.4067337447772275,
+          "orb": 1.4067337447772275
+        },
+        {
+          "body1": "Jupiter",
+          "body2": "Pallas",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 118.5735171611449,
+          "orb": 1.4264828388550939
+        },
+        {
+          "body1": "Pluto",
+          "body2": "N. Node",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 118.36510234233344,
+          "orb": 1.6348976576665564
+        },
+        {
+          "body1": "Mars",
+          "body2": "Uranus",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 91.68876323362315,
+          "orb": 1.688763233623149
+        },
+        {
+          "body1": "Sedna",
+          "body2": "Ascendant",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 58.271198168282595,
+          "orb": 1.728801831717405
+        },
+        {
+          "body1": "Mars",
+          "body2": "Juno",
+          "aspect": "Quincunx",
+          "symbol": "⚻",
+          "angle": 150,
+          "separation": 148.2629169630784,
+          "orb": 1.7370830369216037
+        },
+        {
+          "body1": "Venus",
+          "body2": "Neptune",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 91.76088956753108,
+          "orb": 1.7608895675310805
+        },
+        {
+          "body1": "Vertex",
+          "body2": "Midheaven",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 121.7651326494373,
+          "orb": 1.7651326494373052
+        },
+        {
+          "body1": "Sun",
+          "body2": "Sedna",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 178.13417042584985,
+          "orb": 1.8658295741501547
+        },
+        {
+          "body1": "Ceres",
+          "body2": "Lilith",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 178.13401024703114,
+          "orb": 1.8659897529688578
+        },
+        {
+          "body1": "Chiron",
+          "body2": "Fortune",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 61.929276127435344,
+          "orb": 1.9292761274353438
+        },
+        {
+          "body1": "Chiron",
+          "body2": "Pallas",
+          "aspect": "Quincunx",
+          "symbol": "⚻",
+          "angle": 150,
+          "separation": 151.9712958172911,
+          "orb": 1.971295817291093
+        },
+        {
+          "body1": "N. Node",
+          "body2": "Fortune",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 178.00118497878293,
+          "orb": 1.9988150212170694
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Midheaven",
+          "aspect": "Quincunx",
+          "symbol": "⚻",
+          "angle": 150,
+          "separation": 147.94620334394403,
+          "orb": 2.0537966560559653
+        },
+        {
+          "body1": "Neptune",
+          "body2": "Sedna",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 122.06062388801058,
+          "orb": 2.060623888010582
+        },
+        {
+          "body1": "Venus",
+          "body2": "Ascendant",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 87.90728837617576,
+          "orb": 2.0927116238242434
+        },
+        {
+          "body1": "Juno",
+          "body2": "Vesta",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 57.85887910764188,
+          "orb": 2.141120892358117
+        },
+        {
+          "body1": "Uranus",
+          "body2": "Vesta",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 62.1894406956566,
+          "orb": 2.1894406956566
+        },
+        {
+          "body1": "Vesta",
+          "body2": "Midheaven",
+          "aspect": "Quincunx",
+          "symbol": "⚻",
+          "angle": 150,
+          "separation": 147.80288121376847,
+          "orb": 2.1971187862315276
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Juno",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 57.71555697746632,
+          "orb": 2.2844430225336794
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Uranus",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 62.33276282583216,
+          "orb": 2.3327628258321624
+        },
+        {
+          "body1": "Pluto",
+          "body2": "Sedna",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 177.57254677017568,
+          "orb": 2.427453229824323
+        },
+        {
+          "body1": "N. Node",
+          "body2": "Ascendant",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 117.47864259612481,
+          "orb": 2.521357403875186
+        },
+        {
+          "body1": "Moon",
+          "body2": "Fortune",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 2.549546640551398,
+          "orb": 2.549546640551398
+        },
+        {
+          "body1": "Venus",
+          "body2": "Jupiter",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 122.71180077709917,
+          "orb": 2.711800777099171
+        },
+        {
+          "body1": "Neptune",
+          "body2": "N. Node",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 62.85317946016835,
+          "orb": 2.8531794601683487
+        },
+        {
+          "body1": "Saturn",
+          "body2": "Vesta",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 62.89632057696801,
+          "orb": 2.8963205769680087
+        },
+        {
+          "body1": "Eris",
+          "body2": "Lilith",
+          "aspect": "Quincunx",
+          "symbol": "⚻",
+          "angle": 150,
+          "separation": 152.99704136609668,
+          "orb": 2.9970413660966813
+        },
+        {
+          "body1": "Lilith",
+          "body2": "Vertex",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 63.03752920866094,
+          "orb": 3.037529208660942
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Saturn",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 63.03964270714357,
+          "orb": 3.039642707143571
+        },
+        {
+          "body1": "Sun",
+          "body2": "Fortune",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 63.07208902320946,
+          "orb": 3.0720890232094575
+        },
+        {
+          "body1": "Moon",
+          "body2": "Ascendant",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 63.072089023209514,
+          "orb": 3.0720890232095144
+        },
+        {
+          "body1": "Chiron",
+          "body2": "Sedna",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 56.86446442350537,
+          "orb": 3.1355355764946324
+        },
+        {
+          "body1": "Mars",
+          "body2": "Jupiter",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 63.33709695522655,
+          "orb": 3.3370969552265493
+        },
+        {
+          "body1": "Moon",
+          "body2": "Neptune",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 116.59608892049732,
+          "orb": 3.4039110795026772
+        },
+        {
+          "body1": "Sun",
+          "body2": "Ascendant",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 123.59463140586757,
+          "orb": 3.594631405867574
+        },
+        {
+          "body1": "Pluto",
+          "body2": "Fortune",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 63.633712678883626,
+          "orb": 3.633712678883626
+        },
+        {
+          "body1": "Sun",
+          "body2": "Neptune",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 56.07354653783926,
+          "orb": 3.9264534621607368
+        },
+        {
+          "body1": "Chiron",
+          "body2": "N. Node",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 116.07190885134759,
+          "orb": 3.9280911486524133
+        },
+        {
+          "body1": "Pluto",
+          "body2": "Ascendant",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 124.15625506154174,
+          "orb": 4.156255061541742
+        },
+        {
+          "body1": "Uranus",
+          "body2": "Midheaven",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 85.61344051811187,
+          "orb": 4.386559481888128
+        },
+        {
+          "body1": "Moon",
+          "body2": "Chiron",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 64.47882276798674,
+          "orb": 4.478822767986742
+        },
+        {
+          "body1": "Neptune",
+          "body2": "Pluto",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 55.511922882165095,
+          "orb": 4.488077117834905
+        },
+        {
+          "body1": "Mars",
+          "body2": "Pallas",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 55.236420205918364,
+          "orb": 4.763579794081636
+        },
+        {
+          "body1": "Lilith",
+          "body2": "Midheaven",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 175.19733814190175,
+          "orb": 4.802661858098247
+        },
+        {
+          "body1": "Ceres",
+          "body2": "Vertex",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 115.0964810383702,
+          "orb": 4.9035189616298
+        },
+        {
+          "body1": "Pluto",
+          "body2": "Ceres",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 124.95816125572992,
+          "orb": 4.9581612557299195
+        },
+        {
+          "body1": "Sun",
+          "body2": "Chiron",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 125.0013651506448,
+          "orb": 5.001365150644801
+        },
+        {
+          "body1": "Jupiter",
+          "body2": "Juno",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 84.92582000785183,
+          "orb": 5.074179992148174
+        },
+        {
+          "body1": "Saturn",
+          "body2": "Midheaven",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 84.90656063680046,
+          "orb": 5.093439363199536
+        },
+        {
+          "body1": "Pallas",
+          "body2": "Sedna",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 95.10683139378574,
+          "orb": 5.10683139378574
+        },
+        {
+          "body1": "Jupiter",
+          "body2": "Fortune",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 95.32705478358153,
+          "orb": 5.327054783581531
+        },
+        {
+          "body1": "Sun",
+          "body2": "Ceres",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 125.51978491140409,
+          "orb": 5.519784911404088
+        },
+        {
+          "body1": "Pluto",
+          "body2": "Chiron",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 125.56298880631897,
+          "orb": 5.56298880631897
+        },
+        {
+          "body1": "Moon",
+          "body2": "Ceres",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 173.95767270593785,
+          "orb": 6.042327294062147
+        },
+        {
+          "body1": "Venus",
+          "body2": "Mars",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 173.95110226767426,
+          "orb": 6.048897732325742
+        },
+        {
+          "body1": "Mars",
+          "body2": "Midheaven",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 6.075322715511277,
+          "orb": 6.075322715511277
+        },
+        {
+          "body1": "Juno",
+          "body2": "Vertex",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 83.89662767197305,
+          "orb": 6.10337232802695
+        },
+        {
+          "body1": "Ceres",
+          "body2": "N. Node",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 6.593058913396476,
+          "orb": 6.593058913396476
+        },
+        {
+          "body1": "Ceres",
+          "body2": "Midheaven",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 6.668651611067105,
+          "orb": 6.668651611067105
+        },
+        {
+          "body1": "Mars",
+          "body2": "Chiron",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 96.73487561137274,
+          "orb": 6.734875611372743
+        },
+        {
+          "body1": "Sun",
+          "body2": "Pallas",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 83.0273390320641,
+          "orb": 6.972660967935894
+        },
+        {
+          "body1": "Venus",
+          "body2": "Saturn",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 82.96921891536255,
+          "orb": 7.030781084637454
+        },
+        {
+          "body1": "Jupiter",
+          "body2": "N. Node",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 82.67413019520137,
+          "orb": 7.325869804798629
+        },
+        {
+          "body1": "Pluto",
+          "body2": "Pallas",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 82.46571537638994,
+          "orb": 7.534284623610063
+        },
+        {
+          "body1": "Saturn",
+          "body2": "Chiron",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 172.28324103631553,
+          "orb": 7.71675896368447
+        },
+        {
+          "body1": "Venus",
+          "body2": "Uranus",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 82.26233903405114,
+          "orb": 7.737660965948862
+        },
+        {
+          "body1": "Mars",
+          "body2": "Neptune",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 82.1902127001432,
+          "orb": 7.809787299856794
+        },
+        {
+          "body1": "Mars",
+          "body2": "Vertex",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 127.84045536494855,
+          "orb": 7.8404553649485536
+        },
+        {
+          "body1": "Moon",
+          "body2": "Jupiter",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 97.87660142413293,
+          "orb": 7.876601424132929
+        },
+        {
+          "body1": "Moon",
+          "body2": "Lilith",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 7.908317047031005,
+          "orb": 7.908317047031005
+        },
+        {
+          "body1": "Eris",
+          "body2": "Ascendant",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 82.01663529585616,
+          "orb": 7.983364704143838
+        }
+      ]
+    },
+    "Mom": {
+      "person": {
+        "name": "Mom",
+        "relation": "mother"
+      },
+      "julianDay": 2436410.2916666665,
+      "timeKnown": false,
+      "houseSystem": null,
+      "planets": [
+        {
+          "name": "Sun",
+          "sign": "Leo",
+          "deg": 2,
+          "min": 18,
+          "longitude": 122.31434867967356,
+          "display": " 2°18′ Leo",
+          "house": null,
+          "retrograde": false,
+          "speed": 0.9551671555164957,
+          "warning": null
+        },
+        {
+          "name": "Moon",
+          "sign": "Sagittarius",
+          "deg": 0,
+          "min": 54,
+          "longitude": 240.91061920257553,
+          "display": " 0°54′ Sagittarius",
+          "house": null,
+          "retrograde": false,
+          "speed": 13.86386790333891,
+          "warning": null
+        },
+        {
+          "name": "Mercury",
+          "sign": "Leo",
+          "deg": 29,
+          "min": 22,
+          "longitude": 149.37806332070903,
+          "display": "29°22′ Leo",
+          "house": null,
+          "retrograde": false,
+          "speed": 1.001505601526987,
+          "warning": null
+        },
+        {
+          "name": "Venus",
+          "sign": "Cancer",
+          "deg": 4,
+          "min": 16,
+          "longitude": 94.27629887958469,
+          "display": " 4°16′ Cancer",
+          "house": null,
+          "retrograde": false,
+          "speed": 1.2007904638121834,
+          "warning": null
+        },
+        {
+          "name": "Mars",
+          "sign": "Taurus",
+          "deg": 2,
+          "min": 49,
+          "longitude": 32.817771120367055,
+          "display": " 2°49′ Taurus",
+          "house": null,
+          "retrograde": false,
+          "speed": 0.6194867516557665,
+          "warning": null
+        },
+        {
+          "name": "Jupiter",
+          "sign": "Libra",
+          "deg": 23,
+          "min": 41,
+          "longitude": 203.68488398660816,
+          "display": "23°41′ Libra",
+          "house": null,
+          "retrograde": false,
+          "speed": 0.10116082356030394,
+          "warning": null
+        },
+        {
+          "name": "Saturn",
+          "sign": "Sagittarius",
+          "deg": 19,
+          "min": 45,
+          "longitude": 259.7630687903487,
+          "display": "19°45′ Sagittarius",
+          "house": null,
+          "retrograde": true,
+          "speed": -0.04398812957746985,
+          "warning": null
+        },
+        {
+          "name": "Uranus",
+          "sign": "Leo",
+          "deg": 11,
+          "min": 21,
+          "longitude": 131.35548523029033,
+          "display": "11°21′ Leo",
+          "house": null,
+          "retrograde": false,
+          "speed": 0.061312351371760325,
+          "warning": null
+        },
+        {
+          "name": "Neptune",
+          "sign": "Scorpio",
+          "deg": 2,
+          "min": 2,
+          "longitude": 212.04166794361115,
+          "display": " 2°02′ Scorpio",
+          "house": null,
+          "retrograde": false,
+          "speed": 0.006213203605669598,
+          "warning": null
+        },
+        {
+          "name": "Pluto",
+          "sign": "Virgo",
+          "deg": 1,
+          "min": 1,
+          "longitude": 151.0319637958715,
+          "display": " 1°01′ Virgo",
+          "house": null,
+          "retrograde": false,
+          "speed": 0.029828050590458493,
+          "warning": null
+        }
+      ],
+      "points": [
+        {
+          "name": "N. Node",
+          "sign": "Libra",
+          "deg": 26,
+          "min": 29,
+          "longitude": 206.4871505636809,
+          "display": "26°29′ Libra",
+          "house": null,
+          "retrograde": true,
+          "speed": -0.052934802761124805,
+          "warning": null
+        },
+        {
+          "name": "Lilith",
+          "sign": "Aries",
+          "deg": 17,
+          "min": 19,
+          "longitude": 17.330594767122594,
+          "display": "17°19′ Aries",
+          "house": null,
+          "retrograde": false,
+          "speed": 0.11079414514672914,
+          "warning": null
+        }
+      ],
+      "asteroids": [
+        {
+          "name": "Chiron",
+          "sign": "Aquarius",
+          "deg": 21,
+          "min": 5,
+          "longitude": 321.0984498713758,
+          "display": "21°05′ Aquarius",
+          "house": null,
+          "retrograde": true,
+          "speed": -0.048477257920024164,
+          "warning": "SwissEph file 'semo_18.se1' not found in PATH 'D:\\CLAUDELAB\\clockwork-mirror\\astro\\ephemeris\\' \nusing Moshier eph. for moon; "
+        },
+        {
+          "name": "Ceres",
+          "sign": "Virgo",
+          "deg": 0,
+          "min": 17,
+          "longitude": 150.28987771463727,
+          "display": " 0°17′ Virgo",
+          "house": null,
+          "retrograde": false,
+          "speed": 0.44156805001428834,
+          "warning": "SwissEph file 'semo_18.se1' not found in PATH 'D:\\CLAUDELAB\\clockwork-mirror\\astro\\ephemeris\\' \nusing Moshier eph. for moon; "
+        },
+        {
+          "name": "Pallas",
+          "sign": "Leo",
+          "deg": 5,
+          "min": 34,
+          "longitude": 125.58122374713655,
+          "display": " 5°34′ Leo",
+          "house": null,
+          "retrograde": false,
+          "speed": 0.5703526379228958,
+          "warning": "SwissEph file 'semo_18.se1' not found in PATH 'D:\\CLAUDELAB\\clockwork-mirror\\astro\\ephemeris\\' \nusing Moshier eph. for moon; "
+        },
+        {
+          "name": "Juno",
+          "sign": "Leo",
+          "deg": 21,
+          "min": 5,
+          "longitude": 141.09093707234996,
+          "display": "21°05′ Leo",
+          "house": null,
+          "retrograde": false,
+          "speed": 0.4494921986722795,
+          "warning": "SwissEph file 'semo_18.se1' not found in PATH 'D:\\CLAUDELAB\\clockwork-mirror\\astro\\ephemeris\\' \nusing Moshier eph. for moon; "
+        },
+        {
+          "name": "Vesta",
+          "sign": "Cancer",
+          "deg": 3,
+          "min": 20,
+          "longitude": 93.34448016900215,
+          "display": " 3°20′ Cancer",
+          "house": null,
+          "retrograde": false,
+          "speed": 0.4167283961775215,
+          "warning": "SwissEph file 'semo_18.se1' not found in PATH 'D:\\CLAUDELAB\\clockwork-mirror\\astro\\ephemeris\\' \nusing Moshier eph. for moon; "
+        }
+      ],
+      "tnos": [
+        {
+          "name": "Eris",
+          "sign": "Aries",
+          "deg": 9,
+          "min": 47,
+          "longitude": 9.785973441980929,
+          "display": " 9°47′ Aries",
+          "house": null,
+          "retrograde": true,
+          "speed": -0.0034354647284628387,
+          "warning": "SwissEph file 'semo_18.se1' not found in PATH 'D:\\CLAUDELAB\\clockwork-mirror\\astro\\ephemeris\\' \nusing Moshier eph. for moon; "
+        },
+        {
+          "name": "Sedna",
+          "sign": "Aries",
+          "deg": 27,
+          "min": 11,
+          "longitude": 27.190865665540528,
+          "display": "27°11′ Aries",
+          "house": null,
+          "retrograde": false,
+          "speed": 0.00031010443814160336,
+          "warning": "SwissEph file 'semo_18.se1' not found in PATH 'D:\\CLAUDELAB\\clockwork-mirror\\astro\\ephemeris\\' \nusing Moshier eph. for moon; "
+        }
+      ],
+      "houses": null,
+      "ascendant": null,
+      "mc": null,
+      "aspects": [
+        {
+          "body1": "Chiron",
+          "body2": "Juno",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 179.99248720097415,
+          "orb": 0.0075127990258465616
+        },
+        {
+          "body1": "Moon",
+          "body2": "Pluto",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 89.87865540670404,
+          "orb": 0.1213445932959587
+        },
+        {
+          "body1": "Sun",
+          "body2": "Neptune",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 89.72731926393759,
+          "orb": 0.27268073606241217
+        },
+        {
+          "body1": "Sun",
+          "body2": "Mars",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 89.4965775593065,
+          "orb": 0.5034224406934982
+        },
+        {
+          "body1": "Mars",
+          "body2": "Vesta",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 60.5267090486351,
+          "orb": 0.526709048635098
+        },
+        {
+          "body1": "Moon",
+          "body2": "Ceres",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 90.62074148793826,
+          "orb": 0.6207414879382611
+        },
+        {
+          "body1": "Sedna",
+          "body2": "N. Node",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 179.29628489814036,
+          "orb": 0.7037151018596433
+        },
+        {
+          "body1": "Pluto",
+          "body2": "Ceres",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 0.7420860812342198,
+          "orb": 0.7420860812342198
+        },
+        {
+          "body1": "Mars",
+          "body2": "Neptune",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 179.2238968232441,
+          "orb": 0.7761031767558961
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Ceres",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 0.911814393928239,
+          "orb": 0.911814393928239
+        },
+        {
+          "body1": "Venus",
+          "body2": "Vesta",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 0.9318187105825331,
+          "orb": 0.9318187105825331
+        },
+        {
+          "body1": "Neptune",
+          "body2": "Pluto",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 61.009704147739654,
+          "orb": 1.0097041477396544
+        },
+        {
+          "body1": "Neptune",
+          "body2": "Vesta",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 118.69718777460899,
+          "orb": 1.3028122253910084
+        },
+        {
+          "body1": "Saturn",
+          "body2": "Juno",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 118.67213171799875,
+          "orb": 1.3278682820012477
+        },
+        {
+          "body1": "Saturn",
+          "body2": "Chiron",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 61.335381081027094,
+          "orb": 1.3353810810270943
+        },
+        {
+          "body1": "Sun",
+          "body2": "Moon",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 118.59627052290197,
+          "orb": 1.4037294770980253
+        },
+        {
+          "body1": "Venus",
+          "body2": "Mars",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 61.45852775921763,
+          "orb": 1.4585277592176311
+        },
+        {
+          "body1": "Moon",
+          "body2": "Mercury",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 91.5325558818665,
+          "orb": 1.5325558818665002
+        },
+        {
+          "body1": "Uranus",
+          "body2": "Eris",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 121.5695117883094,
+          "orb": 1.5695117883093985
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Pluto",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 1.6539004751624589,
+          "orb": 1.6539004751624589
+        },
+        {
+          "body1": "Neptune",
+          "body2": "Ceres",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 61.751790228973874,
+          "orb": 1.7517902289738743
+        },
+        {
+          "body1": "Mars",
+          "body2": "Pluto",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 118.21419267550444,
+          "orb": 1.7858073244955648
+        },
+        {
+          "body1": "Moon",
+          "body2": "Mars",
+          "aspect": "Quincunx",
+          "symbol": "⚻",
+          "angle": 150,
+          "separation": 151.9071519177915,
+          "orb": 1.9071519177915093
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Sedna",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 122.1871976551685,
+          "orb": 2.1871976551685037
+        },
+        {
+          "body1": "Venus",
+          "body2": "Neptune",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 117.76536906402646,
+          "orb": 2.2346309359735415
+        },
+        {
+          "body1": "Pluto",
+          "body2": "Vesta",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 57.68748362686934,
+          "orb": 2.312516373130663
+        },
+        {
+          "body1": "Saturn",
+          "body2": "Lilith",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 117.56752597677388,
+          "orb": 2.4324740232261206
+        },
+        {
+          "body1": "Moon",
+          "body2": "Vesta",
+          "aspect": "Quincunx",
+          "symbol": "⚻",
+          "angle": 150,
+          "separation": 147.5661390335734,
+          "orb": 2.4338609664266073
+        },
+        {
+          "body1": "Mars",
+          "body2": "Ceres",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 117.47210659427022,
+          "orb": 2.5278934057297846
+        },
+        {
+          "body1": "Jupiter",
+          "body2": "Chiron",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 117.41356588476765,
+          "orb": 2.5864341152323505
+        },
+        {
+          "body1": "Jupiter",
+          "body2": "Juno",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 62.5939469142582,
+          "orb": 2.593946914258197
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Neptune",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 62.66360462290211,
+          "orb": 2.6636046229021133
+        },
+        {
+          "body1": "Mars",
+          "body2": "Pallas",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 92.76345262676949,
+          "orb": 2.7634526267694923
+        },
+        {
+          "body1": "Jupiter",
+          "body2": "N. Node",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 2.802266577072743,
+          "orb": 2.802266577072743
+        },
+        {
+          "body1": "Mercury",
+          "body2": "N. Node",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 57.10908724297187,
+          "orb": 2.8909127570281328
+        },
+        {
+          "body1": "Ceres",
+          "body2": "Vesta",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 56.94539754563512,
+          "orb": 3.0546024543648826
+        },
+        {
+          "body1": "Ceres",
+          "body2": "Sedna",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 123.09901204909674,
+          "orb": 3.0990120490967428
+        },
+        {
+          "body1": "Venus",
+          "body2": "Pluto",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 56.755664916286804,
+          "orb": 3.244335083713196
+        },
+        {
+          "body1": "Sun",
+          "body2": "Pallas",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 3.2668750674629905,
+          "orb": 3.2668750674629905
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Mars",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 116.56029220034198,
+          "orb": 3.4397077996580236
+        },
+        {
+          "body1": "Jupiter",
+          "body2": "Sedna",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 176.49401832106764,
+          "orb": 3.5059816789323577
+        },
+        {
+          "body1": "Neptune",
+          "body2": "Pallas",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 86.4604441964746,
+          "orb": 3.5395558035254027
+        },
+        {
+          "body1": "Juno",
+          "body2": "Lilith",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 123.76034230522737,
+          "orb": 3.7603423052273683
+        },
+        {
+          "body1": "Chiron",
+          "body2": "Lilith",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 56.232144895746785,
+          "orb": 3.767855104253215
+        },
+        {
+          "body1": "Ceres",
+          "body2": "N. Node",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 56.19727284904363,
+          "orb": 3.802727150956372
+        },
+        {
+          "body1": "Pluto",
+          "body2": "Sedna",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 123.84109813033096,
+          "orb": 3.8410981303309626
+        },
+        {
+          "body1": "Jupiter",
+          "body2": "Saturn",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 56.078184803740555,
+          "orb": 3.9218151962594447
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Vesta",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 56.03358315170688,
+          "orb": 3.9664168482931217
+        },
+        {
+          "body1": "Venus",
+          "body2": "Ceres",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 56.013578835052584,
+          "orb": 3.9864211649474157
+        },
+        {
+          "body1": "Pallas",
+          "body2": "Eris",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 115.79525030515562,
+          "orb": 4.204749694844381
+        },
+        {
+          "body1": "Pluto",
+          "body2": "N. Node",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 55.45518676780941,
+          "orb": 4.544813232190592
+        },
+        {
+          "body1": "Moon",
+          "body2": "Pallas",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 115.32939545543898,
+          "orb": 4.670604544561016
+        },
+        {
+          "body1": "Neptune",
+          "body2": "Sedna",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 175.1491977219294,
+          "orb": 4.850802278070603
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Venus",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 55.101764441124345,
+          "orb": 4.898235558875655
+        },
+        {
+          "body1": "Sun",
+          "body2": "Sedna",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 95.12348301413303,
+          "orb": 5.123483014133029
+        },
+        {
+          "body1": "Chiron",
+          "body2": "N. Node",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 114.6112993076949,
+          "orb": 5.388700692305093
+        },
+        {
+          "body1": "Juno",
+          "body2": "N. Node",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 65.39621349133094,
+          "orb": 5.39621349133094
+        },
+        {
+          "body1": "Venus",
+          "body2": "Eris",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 84.49032543760376,
+          "orb": 5.509674562396242
+        },
+        {
+          "body1": "Neptune",
+          "body2": "N. Node",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 5.554517379930246,
+          "orb": 5.554517379930246
+        },
+        {
+          "body1": "Mars",
+          "body2": "Sedna",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 5.626905454826527,
+          "orb": 5.626905454826527
+        },
+        {
+          "body1": "Mercury",
+          "body2": "Jupiter",
+          "aspect": "Sextile",
+          "symbol": "⚹",
+          "angle": 60,
+          "separation": 54.306820665899124,
+          "orb": 5.693179334100876
+        },
+        {
+          "body1": "Uranus",
+          "body2": "Pallas",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 5.774261483153779,
+          "orb": 5.774261483153779
+        },
+        {
+          "body1": "Sun",
+          "body2": "N. Node",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 84.17280188400734,
+          "orb": 5.827198115992658
+        },
+        {
+          "body1": "Uranus",
+          "body2": "Lilith",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 114.02489046316774,
+          "orb": 5.975109536832264
+        },
+        {
+          "body1": "Juno",
+          "body2": "Sedna",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 113.90007140680943,
+          "orb": 6.099928593190569
+        },
+        {
+          "body1": "Mars",
+          "body2": "N. Node",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 173.66937944331386,
+          "orb": 6.330620556686142
+        },
+        {
+          "body1": "Jupiter",
+          "body2": "Lilith",
+          "aspect": "Opposition",
+          "symbol": "☍",
+          "angle": 180,
+          "separation": 173.64571078051443,
+          "orb": 6.354289219485565
+        },
+        {
+          "body1": "Vesta",
+          "body2": "Eris",
+          "aspect": "Square",
+          "symbol": "□",
+          "angle": 90,
+          "separation": 83.55850672702122,
+          "orb": 6.441493272978775
+        },
+        {
+          "body1": "Vesta",
+          "body2": "N. Node",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 113.14267039467875,
+          "orb": 6.8573296053212545
+        },
+        {
+          "body1": "Saturn",
+          "body2": "Sedna",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 127.4277968751918,
+          "orb": 7.427796875191802
+        },
+        {
+          "body1": "Sun",
+          "body2": "Eris",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 112.52837523769263,
+          "orb": 7.471624762307371
+        },
+        {
+          "body1": "Eris",
+          "body2": "Lilith",
+          "aspect": "Conjunction",
+          "symbol": "☌",
+          "angle": 0,
+          "separation": 7.544621325141666,
+          "orb": 7.544621325141666
+        },
+        {
+          "body1": "Venus",
+          "body2": "N. Node",
+          "aspect": "Trine",
+          "symbol": "△",
+          "angle": 120,
+          "separation": 112.21085168409621,
+          "orb": 7.7891483159037875
+        }
+      ]
+    }
+  }
+}

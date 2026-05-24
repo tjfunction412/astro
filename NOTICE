@@ -1,0 +1,29 @@
+astro — a personal astrology lab notebook
+Copyright (C) 2026  the project's contributors
+
+This program is free software: you can redistribute it and/or modify it
+under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, version 3 of the License.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public
+License for more details.
+
+You should have received a copy of the GNU AGPL v3 along with this
+program in the file LICENSE.  If not, see <https://www.gnu.org/licenses/>.
+
+---
+
+This project depends on the following third-party components:
+
+Swiss Ephemeris
+  https://www.astro.com/swisseph/
+  License: GNU AGPL-3.0 (or commercial license from Astrodienst AG)
+  Astronomical data and ephemeris compute used by every chart in this project
+  derive from Swiss Ephemeris. Used via the `sweph` npm package:
+  https://github.com/timotejroiko/sweph
+
+Asteroid and TNO ephemeris files (`seas_18.se1`, `sepl_18.se1`,
+`se90377s.se1`, `s136199s.se1`) are not redistributed in this repository.
+Download them as documented in `mcp/README.md` and the project root README.
