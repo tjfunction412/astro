@@ -23,6 +23,11 @@ dist/
 build/
 *.log
 
+# Next.js
+.next/
+out/
+next-env.d.ts
+
 # Swiss Ephemeris data files (binary, redownloadable from astro.com / github mirror)
 ephemeris/*.se1
 
